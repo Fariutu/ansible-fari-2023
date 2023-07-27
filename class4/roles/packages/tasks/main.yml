@@ -1,0 +1,8 @@
+- name: ensure a list of packages installed
+  yum:
+    name: "{{ packages }}"
+
+- name: ensure a list of exstra packages installed
+  yum:
+    name: "{{ exstra_packages }}"
+  
