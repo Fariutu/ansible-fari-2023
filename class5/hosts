@@ -1,0 +1,9 @@
+[web]
+
+master ansible_host=198.199.82.108
+
+worker1 ansible_host=146.190.208.156
+
+[gcp]
+
+worker2 ansible_host=34.125.117.46 ansible_user=farida_uturova17
